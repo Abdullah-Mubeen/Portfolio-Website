@@ -1,50 +1,32 @@
  
 
 document.addEventListener("DOMContentLoaded", function () {
-    var servicesSwiper = new Swiper('.services .swiper-container', {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        pagination: {
-            el: '.services .swiper-pagination',
-            clickable: true,
-        },
-        breakpoints: {
-            640: {
-                slidesPerView: 2,
-                spaceBetween: 20,
-            },
-            768: {
-                slidesPerView: 3,
-                spaceBetween: 30,
-            },
-            1024: {
-                slidesPerView: 4,
-                spaceBetween: 40,
-            },
-        }
-    });
+     
+    var portfolioSwiper = new Swiper('.portfolio .portfolio-swiper', {
+         // Optional parameters
+        loop: true,
 
-    var portfolioSwiper = new Swiper('.portfolio .swiper-container', {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        pagination: {
-            el: '.portfolio .swiper-pagination',
-            clickable: true,
+        // Custom Navigation
+        navigation: {
+            nextEl: '.Cust-swiper-button-next',
+            prevEl: '.Cust-swiper-button-prev',
         },
+
+        // Responsive breakpoints
         breakpoints: {
             640: {
-                slidesPerView: 2,
-                spaceBetween: 20,
+                slidesPerView: 1,
+                spaceBetween: 10,
             },
             768: {
                 slidesPerView: 3,
-                spaceBetween: 30,
+                spaceBetween: 20,
             },
             1024: {
                 slidesPerView: 4,
-                spaceBetween: 40,
+                spaceBetween: 30,
             },
-        }
+        },
         
     });
 
