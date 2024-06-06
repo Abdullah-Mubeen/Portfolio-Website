@@ -41,72 +41,92 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero d-flex align-items-center text-center">
+    <section id="home" class="hero">
         <div class="container">
-            <h1 class="display-4 text-white">Mustabshira Mudassir</h1>
-            <p class="lead text-white-50">Professional Digital Marketing & Social Media Strategist</p>
-            <a href="#contact" class="btn btn-outline-light btn-lg mt-3">Contact Me</a>
-        </div>
-    </header>
-
-    <!-- About Us Section -->
-    <section id="about" >
-        <div class="container">
-            <div class="about-content">
-                <div class="about">
-                    <h2><span>About Us</span></h2>
-                    <p>Welcome to Your Digital Agency, where creativity meets innovation. We are a passionate team of
-                        digital experts dedicated to helping businesses thrive in the digital landscape. Our mission is
-                        to craft exceptional digital experiences that leave a lasting impression.</p>
-                    <p>At Your Digital Agency, we believe in the power of collaboration and creativity. We work closely
-                        with our clients to understand their unique needs and goals, and then we leverage our expertise
-                        to deliver customized solutions that drive results.</p>
-                    <p>With a focus on cutting-edge technology and user-centric design, we strive to push the boundaries
-                        of what's possible in the digital world. From web design and development to digital marketing
-                        and branding, we've got you covered every step of the way.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title">Welcome to <span>Our Website</span></h1>
+                        <p class="hero-subtitle">Discover amazing projects and ideas</p>
+                        <a href="#portfolio" class="btn btn-primary hero-button">Explore Now</a>
+                    </div>
                 </div>
-                <div class="about-image">
-                    <img src="about-image.jpg" alt="About Image">
+                <div class="col-md-6">
+                    <div class="hero-image image-fluid">
+                        <img src="hero.avif" class="img-fluid" alt="Hero Image">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
- 
-   <!-- Services Section -->
-<section id="services" class="services">     
-    <div class="card-container">
-        <!-- Card 1 -->
-        <div class="card">
-            <img src="https://via.placeholder.com/300x200" alt="Service 1">
-            <div class="container">
-                <h4 class="card-title">Service 1</h4>
-                <p class="card-text">Description for Service 1.</p>
+
+    
+    <!-- About Us Section -->
+    <section id="about" class="py-5">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about">
+                        <h2><span>About Us</span></h2>
+                        <p>Welcome to Your Digital Agency, where creativity meets innovation. We are a passionate team of
+                            digital experts dedicated to helping businesses thrive in the digital landscape. Our mission is
+                            to craft exceptional digital experiences that leave a lasting impression.</p>
+                        <p>At Your Digital Agency, we believe in the power of collaboration and creativity. We work closely
+                            with our clients to understand their unique needs and goals, and then we leverage our expertise
+                            to deliver customized solutions that drive results.</p>
+                        <p>With a focus on cutting-edge technology and user-centric design, we strive to push the boundaries
+                            of what's possible in the digital world. From web design and development to digital marketing
+                            and branding, we've got you covered every step of the way.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="about-image">
+                        <img src="about.avif" class="img-fluid" alt="About Image">
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- Card 2 -->
-        <div class="card">
-            <img src="https://via.placeholder.com/300x200" alt="Service 2">
-            <div class="container">
-                <h4 class="card-title">Service 2</h4>
-                <p class="card-text">Description for Service 2.</p>
+    </section>
+
+<!-- Services Section -->
+<section id="services" class="services">
+    <div class="container">
+        <h1 class="text-center mb-4 heading-container">Our <span>Services</span> </h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="https://via.placeholder.com/300x200" alt="Service 1">
+                    <div class="card-body">
+                        <h4 class="card-title">Service 1</h4>
+                        <p class="card-text">Description for Service 1.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <!-- Card 3 -->
-        <div class="card">
-            <img src="https://via.placeholder.com/300x200" alt="Service 3">
-            <div class="container">
-                <h4 class="card-title">Service 3</h4>
-                <p class="card-text">Description for Service 3.</p>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="https://via.placeholder.com/300x200" alt="Service 2">
+                    <div class="card-body">
+                        <h4 class="card-title">Service 2</h4>
+                        <p class="card-text">Description for Service 2.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="https://via.placeholder.com/300x200" alt="Service 3">
+                    <div class="card-body">
+                        <h4 class="card-title">Service 3</h4>
+                        <p class="card-text">Description for Service 3.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-
-
-
-   <!-- Portfolio Section -->
-   <section id="portfolio" class="portfolio py-5 bg-light">
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio py-5 bg-light">
     <div class="container">
         <h1 class="text-center mb-4 heading-container">Proven <span>Success</span> </h1>
         <div class="swiper-container portfolio-swiper">
@@ -123,10 +143,37 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="card mb-4 shadow-sm">
-                        <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                        <img src="project1.jpg" class="card-img-top" alt="Project 2">
                         <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">Description of Project 1.</p>
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">Description of Project 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="project1.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">Description of Project 3.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="project1.jpg" class="card-img-top" alt="Project 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 4</h5>
+                            <p class="card-text">Description of Project 4.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="project1.jpg" class="card-img-top" alt="Project 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 5</h5>
+                            <p class="card-text">Description of Project 5.</p>
                         </div>
                     </div>
                 </div>
@@ -139,25 +186,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="card mb-4 shadow-sm">
-                        <img src="project1.jpg" class="card-img-top" alt="Project 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">Description of Project 1.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="card mb-4 shadow-sm">
-                        <img src="project1.jpg" class="card-img-top" alt="Project 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">Description of Project 1.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Repeat as needed -->
+                <!-- Repeat other slides -->
             </div>
             <!-- Navigation Arrows -->
             <div class="Cust-swiper-button-next"><i class="fas fa-chevron-right"></i></div>
@@ -166,41 +195,64 @@
     </div>
 </section>
 
+<!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="container">
+        <h1 class="text-center mb-4 heading-container">Contact <span>Us</span></h1>
+        <form action="#">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary submit-button">Send Message</button>
+        </form>
+    </div>
+</section>
 
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact py-5">
+    <!-- Footer -->
+    <footer class="footer">
         <div class="container">
-            <h1 class="text-center mb-4 heading-container">Let's <span>Talk</span></h1>
-            <form>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <input type="text" class="form-control" id="name" placeholder="Your Name">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3 class="footer-title">About Us</h3>
+                    <p>We are dedicated to providing the best solutions for your business. Discover our projects and join our community.</p>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Follow Us</h3>
+                    <div class="footer-socials">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
-                <div class="form-group">
-                    <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                <div class="footer-column">
+                    <h3 class="footer-title">Newsletter</h3>
+                    <form class="footer-form">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
                 </div>
-                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
-            </form>
-        </div>
-    </section>
-
-    <footer class="text-center py-4 bg-dark text-white">
-        <div class="container">
-            <p>&copy; 2024 [Your Sister's Name]. All rights reserved.</p>
-            <p>
-                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
-            </p>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BrandName. All Rights Reserved.</p>
+            </div>
         </div>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
